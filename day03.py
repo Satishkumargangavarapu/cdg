@@ -1,9 +1,9 @@
 
-# #Integer
+#Integer
 # n = 123
 # print(n)         #123 
 # print(type(n))   #<class 'int'> 
-# a = 0123        
+# a = 123        
 # a = 0b1011
 # b = 0o761
 # c = 0xF109
@@ -23,11 +23,11 @@
 # print(c, type(c))  #0.1234 <class 'float'> 
 
 # #Complex
-# a = 3 + 4j
-# b = 0j
+a = 3 + 4j
+b = 0j
 # c = j7
-# print(a, type(a), type(a.real), type(a.imag))  # (3+4j) <class 'complex'> <class 'float'> <class 'float'>
-# print(b, type(b), type(a.imag))   # 0j <class 'complex'> <class 'float'>
+print(a, type(a), type(a.real), type(a.imag))  # (3+4j) <class 'complex'> <class 'float'> <class 'float'>
+print(b, type(b), type(a.imag))   # 0j <class 'complex'> <class 'float'>
 # print(c)
 
 # #Bool
@@ -93,7 +93,7 @@
 # print(h, type(h))  # 3j <class 'complex'>
 # print(i, type(i))  # (1,) <class 'tuple'>
 # print(j, type(j))  # (True,) <class 'tuple'>
-# print(k, type(k))  # (3j,) <class 'tuple'>
+# print(k, type(k))  # (3j,) <'tuple'>
 # print(type(l))  # <class 'tuple'>
 # print(m)   # (1, 2, 3, 4, 5)
 # print(n)  # (2, 3, 4)
@@ -102,7 +102,7 @@
 # print(q)  # (1, 2, 3, 4, 5)
 # print(r)  # ('r', 'a', 'k', 'e', 's', 'h')
 
-# #Set 
+#Set 
 # a = {}
 # b = set() 
 # c = {1,2,3,4}
@@ -134,7 +134,7 @@
 # print(n)   # {'r', 'a', 'k', 'e', 's', 'h'}
 # print(o)  # {1, 2, 3, 4, 5}
 
-# #Dict 
+#Dict 
 # a = {}
 # b = dict() 
 # c = {1,2,3,4,5}
@@ -145,7 +145,7 @@
 # h = {(1,2,3):'a', 2:'b'}
 # i = {1:'a', 1:'b', 1:'c', 2:'x', 2:'y'}
 # j = dict(1,2,3,4,5)
-# # k = dict(1:'a', 2:'b')
+# k = dict(1:'a', 2:'b')
 # l = dict({1:'a', 2:'b'})
 # m = dict([(1,2), [3,4], (5,6)])
 # n = dict( ((1,2),[3,4])) 
@@ -164,40 +164,40 @@
 # print(m)  # {1: 2, 3: 4, 5: 6}
 # print(n)  # {1: 2, 3: 4}
 
-# #String
-# a = 'rakesh'
-# b = "rakesh"
-# c = '''r
-# a
-# k
-# esh'''
-# print(a)  # rakesh
-# print(type(a))  # <class 'str'>
-# print(b)  # rakesh
-# print(type(b))  # <class 'str'>
-# print(c)  # r\na\nk\nesh
-# print(type(c))   # <class 'str'>
+#String
+a = 'rakesh'
+b = "rakesh"
+c = '''r
+a
+k
+esh'''
+print(a)  # rakesh
+print(type(a))  # <class 'str'>
+print(b)  # rakesh
+print(type(b))  # <class 'str'>
+print(c)  # r\na\nk\nesh
+print(type(c))   # <class 'str'>
 
-# #Range
-# a = range(5)
-# b = range(3,7)
-# c = range(3, 9, 2)
-# d = range(9,3,-1)
-# print(a)  # range(0, 5)
-# print(*a)  # 0 1 2 3 4
-# print(*b)  # 3 4 5 6
-# print(*c)  # 3 5 7
-# print(*d)  # 9 8 7 6 5 4
+#Range
+a = range(5)
+b = range(3,7)
+c = range(3, 9, 2)
+d = range(9,3,-1)
+print(a)  # range(0, 5)
+print(*a)  # 0 1 2 3 4
+print(*b)  # 3 4 5 6
+print(*c)  # 3 5 7
+print(*d)  # 9 8 7 6 5 4
 
-# #Slicing
-# a = [4,1,2,3,5] 
-# print(a[:])  # [4, 1, 2, 3, 5]
-# print(a[:3])  # [4, 1, 2]
-# print(a[2:])  # [2, 3, 5]
-# print(a[::-1])  # [5, 3, 2, 1, 4]
-# print(a[:3:-1])  # [5, 3, 2]
-# print(a[3::-1])  # [3, 2, 1, 4]
-# b = {3,2,4,6}
-# print(b[:3])
-# c = {1:'a', 2:'b', 3:'c'}
-# print(c[:2])
+#Slicing
+a = [4,1,2,3,5] 
+print(a[:])  # [4, 1, 2, 3, 5]
+print(a[:3])  # [4, 1, 2]
+print(a[2:])  # [2, 3, 5]
+print(a[::-1])  # [5, 3, 2, 1, 4]
+print(a[:3:-1])  # [5, 3, 2]
+print(a[3::-1])  # [3, 2, 1, 4]
+b = {3,2,4,6}
+print(b[:3])
+c = {1:'a', 2:'b', 3:'c'}
+print(c[:2])
