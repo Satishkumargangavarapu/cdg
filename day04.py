@@ -1,18 +1,18 @@
 # #Arithmetic 
 
 # # + : 
-a = 45 + 4.5 #49.5
-b = True + False #1
-c = 4+5j + 6+7j #10+12j
-d = None + 5 #Type Error
-e = [1,2,3] + [4,5,6] #[1,2,3,4,5,6]
-f = (1,2,3) + (4,5,6) #(1,2,3,4,.5,6)
-g = 'rak' + 'esh'
-h = range(1,4) + range(4,7)
-i = {1,2,3} + {4,5,5}
-j = {1:'a', 2:'b'} + {3:'c', 4:'d'}
-k = [1,2,3] + (1,2,3)
-l = [1,2,3] + 'rak'
+# a = 45 + 4.5 #49.5
+# b = True + False #1
+# c = 4+5j + 6+7j #10+12j
+# d = None + 5 #Type Error
+# e = [1,2,3] + [4,5,6] #[1,2,3,4,5,6]
+# f = (1,2,3) + (4,5,6) #(1,2,3,4,.5,6)
+# g = 'rak' + 'esh'
+# h = range(1,4) + range(4,7)
+# i = {1,2,3} + {4,5,5}
+# j = {1:'a', 2:'b'} + {3:'c', 4:'d'}
+# k = [1,2,3] + (1,2,3)
+# l = [1,2,3] + 'rak'
 # print(a)  # 49.5
 # print(b)  # 1
 # print(c)  # 10+12j
@@ -123,26 +123,26 @@ l = [1,2,3] + 'rak'
 # print()  # 
 # print()  # 
 # # #Logical Operators
-# print( 4 and 0 and 6 )   #0  # 0
-# print( 4 and 1 and 6 )   #6  # 6
-# print( 4 or 0 or 6)      #4  # 4
-# print(0 or '' or [])     #[]  # []
-# #mixed
-# print(4 or 0 and 6)     # 4
-# #not reverse the bool value
-# print(not False)   # True
-# print(not True)   # False
+print( 4 and 0 and 6 )   #0  
+print( 4 and 1 and 6 )   #6  
+print( 4 or 0 or 6)      #4  
+print(0 or '' or [])     #[]  
+#mixed
+print(4 or 0 and 6)     # 4
+#not reverse the bool value
+print(not False)   # True
+print(not True)   # False
 
-# #Assignment operators
+# #Assignment operator
 # a = 10 
-# a += 20
-# a -= 10
-# a *= 2 
-# a **= 2
-# a /= 2 
-# a //= 3
+# a += 20 #30
+# a -= 10 #20
+# a *= 2  #40
+# a **= 2 #1600
+# a /= 2  #800
+# a //= 3 #266.0
 # a %= 3
-# print(a)  # 0
+# print(a)  # 2.0
 
 # #Identity Operators 
 # a = 34 
@@ -181,11 +181,11 @@ l = [1,2,3] + 'rak'
 # print('r' in c)  # True
 # print(4 in d)  # True
 # print('b' in e)  # False
-# print(3 in e)  # False
-# print(4 in f)  # True
+# print(3 in e)  # True
+# print(4 in f)  # False
 
 # #Walrus operator
-# # print(a = 4)
+# print(a = 4)
 # print(a := 4)  # 4
 # print(a)  # 4
 
