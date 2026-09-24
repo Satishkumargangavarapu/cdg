@@ -97,7 +97,7 @@
 
 # # #pop 
 # d = {3:'c', 2:'b', 1:'a', 4:'d'}
-# x = d.pop(2) # KeyError
+# x = d.pop(2) # b
 # print(x) # Error
 # y = d.pop(100)
 # print(y) # KeyError
