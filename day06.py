@@ -14,33 +14,33 @@
 # print(l)  # ['a', 'b', 'c', 34, 34.3, (4+3j), True, None, [0, 1, 2], (3, 4, 5), {6, 7, 8}, {9: 'a', 10: 'b', 11: 'c'}, 'rakesh', range(12, 15)]
 
 # # extend() 
-# l = ['a', 'b', 'c']
-# l.extend(34)
-# l.extend(34.3)
-# l.extend(4+3j)
-# l.extend(True)
-# l.extend(None)
-# l.extend([0,1,2])
-# l.extend((3,4,5))
-# l.extend({6,7,8})
-# l.extend({9:'a', 10:'b', 11:'c'})
-# l.extend('rakesh')
-# l.extend(range(12,15))
+l = ['a', 'b', 'c']
+# l.extend(34)  #Type Error
+# l.extend(34.3)  #TypeError
+# l.extend(4+3j)  #TypeError
+# l.extend(True) #TypeError
+# l.extend(None) #TypeError
+# l.extend([0,1,2]) #['a', 'b', 'c', 0, 1, 2]
+# l.extend((3,4,5))   #['a', 'b', 'c', 3, 4, 5]
+# l.extend({6,7,8})   #['a', 'b', 'c', 6, 7, 8]
+# l.extend({9:'a', 10:'b', 11:'c'}) #['a', 'b', 'c', 9, 10, 11]
+# l.extend('rakesh') #['a', 'b', 'c', 'r', 'a', 'k', 'e', 's', 'h']
+# l.extend(range(12,15))  #['a', 'b', 'c', 12, 13, 14]
 # print(l)  # TypeError
 
-# # insert() 
-# #positive index
-# l = ['a', 'b', 'c', 'd']
-# l.insert(2, 'hi')
-# print(l)  # ['a', 'b', 'hi', 'c', 'd']
-# l.insert(10, 'hi')
-# print(l)  # ['a', 'b', 'hi', 'c', 'd', 'hi']
-# #negative index
-# l = ['a', 'b', 'c', 'd', 'e']
-# l.insert(-2, 'hi')
-# print(l)  # ['a', 'b', 'c', 'hi', 'd', 'e']
-# l.insert(-100, 'hi')
-# print(l)  # ['hi', 'a', 'b', 'c', 'hi', 'd', 'e']
+# insert() 
+#positive index
+l = ['a', 'b', 'c', 'd']
+l.insert(2, 'hi')
+print(l)  # ['a', 'b', 'hi', 'c', 'd']
+l.insert(10, 'hi')
+print(l)  # ['a', 'b', 'hi', 'c', 'd', 'hi']
+#negative index
+l = ['a', 'b', 'c', 'd', 'e']
+l.insert(-2, 'hi')
+print(l)  # ['a', 'b', 'c', 'hi', 'd', 'e']
+l.insert(-100, 'hi')
+print(l)  # ['hi', 'a', 'b', 'c', 'hi', 'd', 'e']
 
 # #pop()
 # l = [1, 2, 3, 4, 5]
